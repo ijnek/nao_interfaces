@@ -20,8 +20,17 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/JointPositionCommand.msg"
-  "msg/JointPositionState.msg"
+  "msg/JointCommands.msg"
+  "msg/JointPositions.msg"
+  "msg/Battery.msg"
+  "msg/Joints.msg"
+  "msg/Buttons.msg"
+  "msg/Accelerometer.msg"
+  "msg/Gyroscope.msg"
+  "msg/Angle.msg"
+  "msg/Sonar.msg"
+  "msg/FSR.msg"
+  "msg/Touch.msg"
 )
 
 ament_package()
