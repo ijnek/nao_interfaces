@@ -3,7 +3,7 @@
 <package format="3">
   <name>nao_interfaces</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Package providing interfaces to be used with a NAO robot.</description>
   <maintainer email="kenjibrameld@gmail.com">ijnek</maintainer>
   <license>Apache License 2.0</license>
 
