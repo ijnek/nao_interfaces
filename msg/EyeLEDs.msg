@@ -1,3 +1,7 @@
+# Message identifying colors for each RGB LED in the NAO's eyes.
+# Expect ranges for R, G and B are 0.0 - 1.0.
+# The alpha value (A) is ignored.
+
 # LED locations and their ids are shown below
 #                          _                         #
 #      /                  (_)                 \      #
