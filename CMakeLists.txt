@@ -29,7 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Sonar.msg"
   "msg/FSR.msg"
   "msg/Touch.msg"
-  "msg/EyeLEDs.msg"
+  "msg/EyeLeds.msg"
   DEPENDENCIES std_msgs
 )
 
