@@ -37,5 +37,6 @@ int32 R4=12
 int32 R5=13
 int32 R6=14
 int32 R7=15
+int32 NUM_EYE_LEDS=16
 
 std_msgs/ColorRGBA[16] leds
