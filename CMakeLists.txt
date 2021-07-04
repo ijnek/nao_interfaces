@@ -30,6 +30,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FSR.msg"
   "msg/Touch.msg"
   "msg/EyeLeds.msg"
+  "msg/Battery.msg"
+  "msg/RobotConfig.msg"
   DEPENDENCIES std_msgs
 )
 

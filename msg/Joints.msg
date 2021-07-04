@@ -25,7 +25,14 @@ int32 LHAND=23
 int32 RHAND=24
 int32 NUMJOINTS=25
 
-float32[25] angles
-float32[25] stiffnesses
-float32[25] temperatures
-float32[25] currents
+
+float32[25] angles        # rad
+float32[25] stiffnesses   # 0.0 - 1.0
+float32[25] temperatures  # Celcius (°C)
+float32[25] currents      # Amperes (A)
+int32[25] statuses        # Temperature Status computed accordingly to the 
+                          # temperature limitation to protecting the motor.
+                          # 0: regular
+                          # 1: high, start to reduce stiffness
+                          # 2: very hot, stiffness reduced over 30%
+                          # 3: critically hot, stiffness is set to 0
