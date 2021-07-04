@@ -6,13 +6,13 @@
 #                          _                         #
 #      /                  (_)                 \      #
 #     /                                        \     #
-#    /         R0                    L0         \    #
-#   |     R7  ____  R1          L1  ____  L7     |   #
+#    /                               L0         \    #
+#   |         ____              L1  ____  L7     |   #
 #   |        /    \                /    \        |   #
-#   |   R6  |  **  |  R2      L2  |  **  |  L6   |   #
+#   |       |  **  |          L2  |  **  |  L6   |   #
 #   |        \____/                \____/        |   #
-#   |     R5        R3          L3        L5     |   #
-#    \         R4                    L4         /    #
+#   |                           L3        L5     |   #
+#    \                               L4         /    #
 #     \                                        /     #
 #      \                  ___                 /      #
 #       \__               \_/             __/        #
@@ -29,14 +29,6 @@ int32 L4=4
 int32 L5=5
 int32 L6=6
 int32 L7=7
-int32 R0=8
-int32 R1=9
-int32 R2=10
-int32 R3=11
-int32 R4=12
-int32 R5=13
-int32 R6=14
-int32 R7=15
-int32 NUM_EYE_LEDS=16
+int32 NUM_LEDS=8
 
-std_msgs/ColorRGBA[16] leds
+std_msgs/ColorRGBA[8] colors

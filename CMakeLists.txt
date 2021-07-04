@@ -29,9 +29,16 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Sonar.msg"
   "msg/FSR.msg"
   "msg/Touch.msg"
-  "msg/EyeLeds.msg"
   "msg/Battery.msg"
   "msg/RobotConfig.msg"
+  "msg/ChestLed.msg"
+  "msg/LeftEarLeds.msg"
+  "msg/LeftEyeLeds.msg"
+  "msg/LeftFootLed.msg"
+  "msg/RightEarLeds.msg"
+  "msg/RightEyeLeds.msg"
+  "msg/RightFootLed.msg"
+  "msg/SkullLeds.msg"
   DEPENDENCIES std_msgs
 )
 
