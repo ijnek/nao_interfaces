@@ -13,4 +13,4 @@ int32 L8=8
 int32 L9=9
 int32 NUM_LEDS=10
 
-std_msgs/ColorRGBA[10] colors
+float32[10] intensities  # 0.0 - 1.0

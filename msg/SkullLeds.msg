@@ -14,4 +14,4 @@ int32 B10=10
 int32 B11=11
 int32 NUM_SKULL_LEDS=12
 
-std_msgs/ColorRGBA[12] colors
+float32[12] intensities  # 0.0 - 1.0
