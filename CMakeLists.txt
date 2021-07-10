@@ -38,7 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RightEarLeds.msg"
   "msg/RightEyeLeds.msg"
   "msg/RightFootLed.msg"
-  "msg/SkullLeds.msg"
+  "msg/HeadLeds.msg"
   "msg/SonarUsage.msg"
   DEPENDENCIES std_msgs
 )

@@ -12,6 +12,6 @@ int32 B8=8
 int32 B9=9
 int32 B10=10
 int32 B11=11
-int32 NUM_SKULL_LEDS=12
+int32 NUM_LEDS=12
 
 float32[12] intensities  # 0.0 - 1.0
