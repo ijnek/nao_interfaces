@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(nao_interfaces)
+project(nao_command_msgs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -21,30 +21,18 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Accelerometer.msg"
-  "msg/Angle.msg"
-  "msg/Battery.msg"
-  "msg/Buttons.msg"
   "msg/ChestLed.msg"
-  "msg/FSR.msg"
-  "msg/Gyroscope.msg"
   "msg/HeadLeds.msg"
-  "msg/JointCurrents.msg"
   "msg/JointIndexes.msg"
   "msg/JointPositions.msg"
-  "msg/JointStatuses.msg"
   "msg/JointStiffnesses.msg"
-  "msg/JointTemperatures.msg"
   "msg/LeftEarLeds.msg"
   "msg/LeftEyeLeds.msg"
   "msg/LeftFootLed.msg"
   "msg/RightEarLeds.msg"
   "msg/RightEyeLeds.msg"
   "msg/RightFootLed.msg"
-  "msg/RobotConfig.msg"
-  "msg/Sonar.msg"
   "msg/SonarUsage.msg"
-  "msg/Touch.msg"
   DEPENDENCIES std_msgs
 )
 
