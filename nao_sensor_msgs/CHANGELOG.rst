@@ -2,8 +2,8 @@
 Changelog for package nao_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2022-01-24)
+------------------
 * update package descriptions, and remove unused dependency
 * Contributors: Kenji Brameld
 
