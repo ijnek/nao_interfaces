@@ -20,5 +20,8 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <deprecated>
+      Please use nao_lola_command_msgs. nao_command_msgs will be removed in K-turtle.
+    </deprecated>
   </export>
 </package>
