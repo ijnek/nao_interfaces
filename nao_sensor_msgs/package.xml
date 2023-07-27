@@ -18,5 +18,8 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <deprecated>
+      Please use nao_lola_sensor_msgs. nao_sensor_msgs will be removed in K-turtle.
+    </deprecated>
   </export>
 </package>
