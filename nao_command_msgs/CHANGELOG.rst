@@ -2,6 +2,9 @@
 Changelog for package nao_command_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.4 (2022-01-24)
 ------------------
 * update comments in JointPositions and JointStiffnesses
